@@ -22,13 +22,15 @@ jobs:
         go-version: '1.24.3'
 
     - name: Build
-      run: go build -v -o pdate ./...
+      run: |
+        mkdir bin
+        go build -v -o bin/pdate ./...
 
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
       with:
         name: pdate-linux
-        path: pdate
+        path: bin/pdate
 
     - name: Test
       run: go test -v ./...
