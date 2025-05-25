@@ -28,7 +28,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: pdate-linux
-        path: bin/pdate
+        path: pdate
 
     - name: Test
       run: go test -v ./...
