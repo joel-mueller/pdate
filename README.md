@@ -42,7 +42,7 @@ pdate 2025-10-02 2025-11-30 -i mo tu fr sa su -r
 
 > Prints dates from the same range, **excluding Mon, Tue, Fri, Sat, Sun**, and prints them in **reverse order**.
 
-## Weekday Codes
+### Weekday Codes
 
 Use these short codes with the `-i` flag to ignore specific weekdays:
 
@@ -60,16 +60,16 @@ Use these short codes with the `-i` flag to ignore specific weekdays:
 
 ### Linux
 
-1. Download the archive (e.g. `pdate_0.1.0_linux_amd64.tar.gz`) and check if the checksum matches the binary
+1. Download the archive (e.g. `pdate_1.0.0_linux_amd64.tar.gz`) and check if the checksum matches the binary
 
    ```bash
-   sha256sum -c pdate_0.1.0_checksums.txt
+   sha256sum -c pdate_1.0.0_checksums.txt
    ```
 
 2. Extract it:
 
    ```bash
-   tar -xzf pdate_0.1.0_linux_amd64.tar.gz
+   tar -xzf pdate_1.0.0_linux_amd64.tar.gz
    ```
 3. Move it to your system path and make it executable:
 
@@ -85,16 +85,16 @@ Use these short codes with the `-i` flag to ignore specific weekdays:
 
 ### macOS
 
-1. Download the archive (e.g. `pdate_0.1.0_darwin_arm64.tar.gz`) and check if the checksum matches the binary
+1. Download the archive (e.g. `pdate_1.0.0_darwin_arm64.tar.gz`) and check if the checksum matches the binary
 
    ```bash
-   shasum -a 256 -c pdate_0.1.0_checksums.txt
+   shasum -a 256 -c pdate_1.0.0_checksums.txt
    ```
 
 2. Extract it:
 
    ```bash
-   tar -xzf pdate_0.1.0_darwin_arm64.tar.gz
+   tar -xzf pdate_1.0.0_darwin_arm64.tar.gz
    ```
 3. Move it to your system path:
 
