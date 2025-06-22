@@ -1,6 +1,6 @@
 package constants
 
-const Version = "1.2.0"
+const Version = "1.2.1"
 
 const DefaultInputFormat = "{YYYY}-{MM}-{DD}"
 
